@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ink: #1a1714;
+  --ink-soft: #4a4540;
+  --ink-muted: #8a8480;
+  --paper: #faf8f4;
+  --paper-warm: #f2ede4;
+  --paper-mid: #e8e0d4;
+  --accent: #7a6248;
+  --accent-light: #c4a882;
+  --accent-pale: #f0e8dc;
+  --serif: 'Cormorant Garamond', Georgia, serif;
+  --sans: 'DM Sans', system-ui, sans-serif;
+  --nav-h: 72px;
+  --r: 6px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--ink);
+  background: var(--paper);
+}
+
+/* Reveal animation */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* Hero fade-up */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.fade-up        { animation: fadeUp 0.8s ease both; }
+.fade-up-delay  { animation: fadeUp 0.8s 0.2s ease both; }
+
+/* Nav responsive (moved from Nav.tsx) */
+@media (max-width: 900px) {
+  .nav-links-desktop { display: none !important; }
+  .nav-toggle        { display: block !important; }
+}

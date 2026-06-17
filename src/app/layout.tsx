@@ -2,13 +2,13 @@ import type { Metadata } from 'next';
 import '../styles/globals.css';
 
 export const metadata: Metadata = {
-  title: 'Karina Kehlet Lins',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  title: 'Institut for Seksualpsykologi',
+  description: 'Efteruddannelse, supervision og vidensformidling inden for seksualpsykologi, parterapi og sexterapi.',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="da">
       <body>{children}</body>
     </html>
   );

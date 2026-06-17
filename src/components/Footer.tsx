@@ -1,22 +1,14 @@
-import { useTranslations } from 'next-intl';
-
 export default function Footer() {
-  const t = useTranslations('footer');
   return (
     <footer style={{
       background: '#111', padding: '40px',
-      textAlign: 'center', fontSize: '13px', color: 'rgba(250,248,244,.3)',
+      textAlign: 'center', fontSize: '14px', color: 'rgba(250,248,244,.75)',
+      lineHeight: 1.8,
     }}>
-      <p style={{ marginBottom: '8px' }}>{t('copyright')}</p>
-      <p>
-        <a href="#" style={{ color: 'rgba(250,248,244,.5)', textDecoration: 'none' }}>
-          {t('privacy')}
-        </a>
-        &nbsp;·&nbsp;
-        <a href="#" style={{ color: 'rgba(250,248,244,.5)', textDecoration: 'none' }}>
-          {t('accessibility')}
-        </a>
-      </p>
+      <p style={{ marginBottom: '10px', fontWeight: 600 }}>Institut for Seksualpsykologi</p>
+      <p>Lokaler på Amager</p>
+      <p>Stiftet af Karina Kehlet Lins – autoriseret psykolog, systemisk parterapeut, klinisk sexolog</p>
+      <p style={{ opacity: 0.7 }}>[TODO: adresse, e-mail, telefon]</p>
     </footer>
   );
 }

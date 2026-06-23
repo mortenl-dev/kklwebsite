@@ -27,7 +27,8 @@ export default function Nav() {
   const links = [
     { label: 'Om Instituttet', href: '#about' },
     { label: 'Uddannelse', href: '#education' },
-    { label: 'Optagelse', href: '#optagelse' },
+    { label: 'Kurser', href: '#courses' },
+    { label: 'Målgruppe', href: '#maalgruppe' },
   ];
 
   return (

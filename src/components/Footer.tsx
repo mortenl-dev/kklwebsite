@@ -7,8 +7,8 @@ export default function Footer() {
     }}>
       <p style={{ marginBottom: '10px', fontWeight: 600 }}>Institut for Seksualpsykologi</p>
       <p>Lokaler på Amager</p>
-      <p>Stiftet af Karina Kehlet Lins – autoriseret psykolog, systemisk parterapeut, klinisk sexolog</p>
-      <p style={{ opacity: 0.7 }}>[TODO: adresse, e-mail, telefon]</p>
+      <p>Stiftet i 2026 af Karina Kehlet Lins – autoriseret psykolog, systemisk parterapeut samt klinisk sexolog</p>
+      <p style={{ opacity: 0.7 }}></p>
     </footer>
   );
 }

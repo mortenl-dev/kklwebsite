@@ -7,15 +7,15 @@ const pillars = [
   },
   {
     title: 'Kliniske færdigheder',
-    text: 'Hvordan taler man om sex, skaber tryghed og udreder seksuelle problemstillinger?',
+    text: 'Hvordan skaber man tryghed og taler professionelt om seksualitet?',
   },
   {
-    title: 'Interventioner',
-    text: 'Hvad gør man rent faktisk i terapien?',
+    title: 'Terapeutiske interventioner',
+    text: 'Hvordan arbejder man konkret med seksualitet i terapi?',
   },
   {
-    title: 'Sexual Self-Awareness (SSA)',
-    text: 'Terapeutens egen seksualitetsforståelse, værdier, normer, blinde vinkler og professionelle position.',
+    title: 'Terapeutens egen position (Sexual Self-Awareness)',
+    text: 'Hvordan påvirker vores egne normer, værdier og erfaringer det kliniske arbejde?',
   },
 ];
 
@@ -37,17 +37,31 @@ export default function Focus() {
             Uddannelse
           </p>
           <h2 style={{ fontFamily: 'var(--serif)', fontSize: 'clamp(32px, 3.5vw, 48px)', fontWeight: 300, lineHeight: 1.15, letterSpacing: '-0.01em', color: 'var(--ink)', marginBottom: '20px' }}>
-            Modulopbygget efteruddannelse til fagpersoner
+            Uddannelsesstruktur
           </h2>
           <p style={{ fontSize: '17px', lineHeight: 1.9, color: 'var(--ink-soft)', maxWidth: '700px', marginBottom: '24px' }}>
-            Uddannelsesstruktur: Institut for Seksualpsykologi tilbyder en modulopbygget efteruddannelse, hvor deltagerne gradvist opbygger specialiserede kompetencer inden for seksualpsykologi, parterapi og sexterapi.
+            Institut for Seksualpsykologi tilbyder en modulopbygget efterkvalificering, hvor
+            fagpersoner kan skræddersy deres eget forløb i overenstemmelse med deres kliniske
+            arbejde.
           </p>
           <p style={{ fontSize: '17px', lineHeight: 1.9, color: 'var(--ink-soft)', maxWidth: '700px', marginBottom: '24px' }}>
-            Uddannelsen består af både grundlæggende og videregående moduler, der kan tages enkeltvis eller som led i et samlet kompetenceforløb. Strukturen er fleksibel, så fagpersoner kan udvikle deres kompetencer i eget tempo og i tæt sammenhæng med deres kliniske arbejde.
+            Uddannelsesblokkene består af både grundlæggende og videregående moduler, som kan
+            tages enkeltvis eller som led i et samlet forløb. På hvert modul er der max 12 deltagere for
+            at sikre aktiv deltagelse, refleksion samt tæt kontakt til underviserne.
           </p>
           <p style={{ fontSize: '17px', lineHeight: 1.9, color: 'var(--ink-soft)', maxWidth: '700px', marginBottom: '32px' }}>
-            En kompetencebaseret tilgang: Uddannelsen er ikke bygget op omkring enkeltstående emner eller diagnoser, men omkring de kompetencer, der gør en terapeut i stand til at arbejde professionelt med seksualitet.
+            Institut tilbyder:
           </p>
+          <div style={{ padding: '12px 0 24px', maxWidth: '700px' }}>
+            <ul style={{ listStyle: 'none', paddingLeft: 0, margin: 0, display: 'grid', gap: '8px' }}>
+              {['Faglige kurser og workshops', 'Supervision af terapeuter og behandlere', 'Vidensformidling og foredrag'].map((item) => (
+                <li key={item} style={{ display: 'flex', gap: '12px', alignItems: 'flex-start' }}>
+                  <span style={{ width: '8px', height: '8px', borderRadius: '999px', marginTop: '8px', background: 'var(--accent)' }} />
+                  <span style={{ color: 'var(--ink-soft)', fontSize: '16px' }}>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
         </ScrollReveal>
 
         <ScrollReveal>
@@ -80,8 +94,8 @@ export default function Focus() {
           <div style={{ marginTop: '40px', display: 'grid', gap: '22px' }}>
             <div style={{ padding: '28px', background: 'var(--paper)', borderRadius: '24px', border: '1px solid var(--paper-mid)' }}>
               <h3 style={{ fontFamily: 'var(--serif)', fontSize: '20px', fontWeight: 500, color: 'var(--ink)', marginBottom: '16px' }}>
-                De fire faglige søjler
-              </h3>
+                  De 4 søjler
+                </h3>
               <div style={{ display: 'grid', gap: '16px' }}>
                 <p style={{ fontSize: '16px', lineHeight: 1.8, color: 'var(--ink-soft)', margin: 0 }}>
                   Uddannelsen hviler på fire faglige søjler, der tilsammen dækker viden, metode, handling og terapeutens egen position.
@@ -93,15 +107,15 @@ export default function Focus() {
                   </li>
                   <li style={{ display: 'flex', gap: '12px', alignItems: 'flex-start' }}>
                     <span style={{ width: '10px', height: '10px', borderRadius: '999px', background: 'var(--accent)', marginTop: '8px' }} />
-                    <span style={{ color: 'var(--ink-soft)' }}><strong>Kliniske færdigheder</strong> – Hvordan taler man om sex, skaber tryghed og udreder seksuelle problemstillinger?</span>
+                    <span style={{ color: 'var(--ink-soft)' }}><strong>Kliniske færdigheder</strong> – Hvordan skaber man tryghed og taler professionelt om seksualitet?</span>
                   </li>
                   <li style={{ display: 'flex', gap: '12px', alignItems: 'flex-start' }}>
                     <span style={{ width: '10px', height: '10px', borderRadius: '999px', background: 'var(--accent)', marginTop: '8px' }} />
-                    <span style={{ color: 'var(--ink-soft)' }}><strong>Interventioner</strong> – Hvad gør man rent faktisk i terapien?</span>
+                    <span style={{ color: 'var(--ink-soft)' }}><strong>Terapeutiske interventioner</strong> – Hvordan arbejder man konkret med seksualitet i terapi?</span>
                   </li>
                   <li style={{ display: 'flex', gap: '12px', alignItems: 'flex-start' }}>
                     <span style={{ width: '10px', height: '10px', borderRadius: '999px', background: 'var(--accent)', marginTop: '8px' }} />
-                    <span style={{ color: 'var(--ink-soft)' }}><strong>Sexual Self-Awareness (SSA)</strong> – Terapeutens egen seksualitetsforståelse, værdier, normer, blinde vinkler og professionelle position.</span>
+                    <span style={{ color: 'var(--ink-soft)' }}><strong>Terapeutens egen position (Sexual Self-Awareness)</strong> – Hvordan påvirker vores egne normer, værdier og erfaringer det kliniske arbejde?</span>
                   </li>
                 </ul>
               </div>

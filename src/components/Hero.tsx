@@ -28,7 +28,7 @@ export default function Hero() {
                 Institut for Seksualpsykologi
               </p>
               <p style={{ fontSize: '15px', color: 'var(--ink-soft)', maxWidth: '560px' }}>
-                Efteruddannelse, supervision og vidensformidling inden for seksualpsykologi, parterapi og sexterapi.
+                Efteruddannelse, supervision og vidensformidling
               </p>
             </div>
           </div>
@@ -41,13 +41,17 @@ export default function Hero() {
             Institut for Seksualpsykologi
           </h1>
           <p style={{ fontSize: '17px', lineHeight: 1.9, color: 'var(--ink-soft)', maxWidth: '560px', marginBottom: '24px' }}>
-            Institut for Seksualpsykologi tilbyder forskningsinformeret efteruddannelse, supervision og faglig udvikling for psykologer, parterapeuter og andre relevante sundhedsprofessionelle.
+            Vi tilbyder forskningsinformeret efteruddannelse, supervision og faglig udvikling for
+            psykologer, psykoterapeuter og andre sundhedsprofessionelle med relevant baggrund.
           </p>
           <p style={{ fontSize: '17px', lineHeight: 1.9, color: 'var(--ink-soft)', maxWidth: '560px', marginBottom: '24px' }}>
-            Instituttet er grundlagt med ønsket om at styrke den seksualpsykologiske faglighed og bidrage til, at flere fagpersoner opnår kompetencer til at arbejde kvalificeret med seksuelle problemstillinger i terapeutisk praksis.
+            Instituttet er grundlagt med ønsket om at styrke den seksualpsykologiske faglighed og
+            bidrage til, at flere fagpersoner opnår kompetencer til at arbejde kvalificeret med
+            seksuelle problemstillinger i terapeutisk praksis.
           </p>
           <p style={{ fontSize: '17px', lineHeight: 1.9, color: 'var(--ink-soft)', maxWidth: '560px', marginBottom: '40px' }}>
-            Vores undervisning tager udgangspunkt i psykologisk teori, klinisk erfaring og aktuel forskning inden for seksualitet, relationer og psykoterapi.
+            Vores undervisning tager udgangspunkt i psykologisk teori, klinisk erfaring og aktuel
+            forskning inden for seksualitet, relationer og psykoterapi.
           </p>
           <div style={{ display: 'flex', gap: '14px', flexWrap: 'wrap' }}>
             <a href="#about" style={{

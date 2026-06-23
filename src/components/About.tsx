@@ -12,17 +12,27 @@ export default function About() {
             Institut for Seksualpsykologi er grundlagt af Karina Kehlet Lins
           </h2>
           <p style={{ fontSize: '17px', lineHeight: 1.9, color: 'var(--ink-soft)', marginBottom: '24px' }}>
-            Institut for Seksualpsykologi er grundlagt af Karina Kehlet Lins, autoriseret psykolog, systemisk parterapeut samt klinisk sexolog.
+            Institut for Seksualpsykologi er grundlagt i 2026 af Karina Kehlet Lins, autoriseret psykolog,
+            systemisk parterapeut samt klinisk sexolog.
           </p>
           <p style={{ fontSize: '17px', lineHeight: 1.9, color: 'var(--ink-soft)', marginBottom: '24px' }}>
-            Instituttet er skabt ud fra en overbevisning om at seksualitet ikke kan forstås isoleret – men altid må ses i sammenhæng med tilknytning, relation, følelsesliv og livshistorie. Det er denne forståelse der ligger til grund for al undervisning på instituttet, og som adskiller os fra mere traditionelle sexologiske uddannelser.
+            Instituttet er skabt ud fra en overbevisning om at seksualitet ikke kan forstås isoleret – men altid må
+            ses i sammenhæng med tilknytning, relation, følelsesliv og livshistorie. Det er denne forståelse der
+            ligger til grund for al undervisning på instituttet, og som adskiller os fra mere traditionelle
+            sexologiske uddannelser.
           </p>
           <div style={{ display: 'grid', gap: '16px', padding: '24px', background: 'var(--paper-warm)', borderRadius: '24px', border: '1px solid var(--paper-mid)' }}>
             <p style={{ fontSize: '16px', lineHeight: 1.8, color: 'var(--ink)' }}>
-              Undervisningen er forskningsinformeret og klinisk forankret. Den bygger på viden og metoder udviklet gennem mange års klinisk praksis, undervisning ved Københavns Universitet, Syddansk Universitet og private institutter i Europa – samt tre fagbøger:
+              Undervisningen er forskningsinformeret og klinisk forankret. Den bygger på viden og metoder
+              udviklet af Karina Kehlet igennem 25 års klinisk praksis, hendes undervisning ved Københavns
+              Universitet, Syddansk Universitet samt andre steder i Europa – og de tre fagbøger:
             </p>
             <ul style={{ listStyle: 'none', paddingLeft: 0, margin: 0, display: 'grid', gap: '12px' }}>
-              {['Samtalen om sex – for sundhedsprofessionelle (Hans Reitzels Forlag, 2018)', 'Systemische Sexualtherapie (Carl-Auer Verlag, 2020)', 'Kompetente par – en vejledning i par- og sexterapi (Akademisk Forlag, 2023)'].map((item) => (
+              {[
+                'Samtalen om sex – for sundhedsprofessionelle (Hans Reitzels Forlag, 2018)',
+                'Systemische Sexualtherapie (Carl-Auer Verlag, 2020)',
+                'Kompetente par – en vejledning i par- og sexterapi (Akademisk Forlag, 2023)'
+              ].map((item) => (
                 <li key={item} style={{ display: 'flex', gap: '14px', alignItems: 'flex-start' }}>
                   <span style={{ minWidth: '10px', height: '10px', marginTop: '8px', borderRadius: '999px', background: 'var(--accent)' }} />
                   <span style={{ color: 'var(--ink-soft)', fontSize: '16px' }}>{item}</span>

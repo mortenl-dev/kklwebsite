@@ -1,5 +1,7 @@
 'use client';
 
+import Image from 'next/image';
+
 export default function Nav() {
   const navStyle: React.CSSProperties = {
     position: 'sticky', top: 0, zIndex: 100, height: 'var(--nav-h)',
@@ -34,7 +36,9 @@ export default function Nav() {
   return (
     <nav style={navStyle}>
       <div style={logoStyle}>
-        <div style={logoMark}>LOGO</div>
+        <div style={{ ...logoMark, position: 'relative', overflow: 'hidden' }}>
+          <Image src="/textless.png" alt="Institut for Seksualpsykologi logo" fill style={{ objectFit: 'contain' }} />
+        </div>
         <div>
           <div style={{ fontFamily: 'var(--serif)', fontSize: '18px', fontWeight: 600, color: 'var(--ink)' }}>
             Institut for Seksualpsykologi

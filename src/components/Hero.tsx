@@ -6,7 +6,7 @@ export default function Hero() {
       <div style={{
         minHeight: 'calc(100vh - var(--nav-h))',
         display: 'grid',
-        gridTemplateColumns: '1fr 1fr',
+        gridTemplateColumns: '1.8fr 1fr',
         maxWidth: '1200px',
         margin: '0 auto',
         padding: '80px 40px',
@@ -20,8 +20,9 @@ export default function Hero() {
               background: 'var(--accent-pale)', color: 'var(--accent)',
               display: 'grid', placeItems: 'center', fontWeight: 700,
               fontFamily: 'var(--serif)', letterSpacing: '0.1em',
+              position: 'relative', overflow: 'hidden',
             }}>
-              LOGO
+              <Image src="/textless.png" alt="Institut for Seksualpsykologi logo" fill style={{ objectFit: 'contain' }} />
             </div>
             <div>
               <p style={{ fontSize: '13px', fontWeight: 500, letterSpacing: '0.16em', textTransform: 'uppercase', color: 'var(--accent)', marginBottom: '8px' }}>
@@ -90,41 +91,9 @@ export default function Hero() {
             </p>
           </div>
 
-          <div style={{ display: 'grid', gap: '24px' }}>
-            <div style={{ padding: '26px', background: 'var(--paper-warm)', borderRadius: '24px', border: '1px solid var(--paper-mid)' }}>
-              <h3 style={{ fontFamily: 'var(--serif)', fontSize: '20px', fontWeight: 500, color: 'var(--ink)', marginBottom: '16px' }}>
-                Sexologisk rådgivning fokuserer typisk på:
-              </h3>
-              <ul style={{ listStyle: 'none', paddingLeft: 0, display: 'grid', gap: '12px' }}>
-                {['information og vejledning', 'normalisering og psykoedukation', 'konkrete redskaber og øvelser', 'afgrænsede problemstillinger'].map((item) => (
-                  <li key={item} style={{ display: 'flex', gap: '12px', alignItems: 'flex-start' }}>
-                    <span style={{ width: '10px', height: '10px', borderRadius: '999px', marginTop: '8px', background: 'var(--accent)' }} />
-                    <span style={{ color: 'var(--ink-soft)', fontSize: '16px' }}>{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
+          
 
-            <div style={{ padding: '26px', background: 'var(--paper-warm)', borderRadius: '24px', border: '1px solid var(--paper-mid)' }}>
-              <h3 style={{ fontFamily: 'var(--serif)', fontSize: '20px', fontWeight: 500, color: 'var(--ink)', marginBottom: '16px' }}>
-                Sexterapi er derimod en terapeutisk behandlingsform, hvor man arbejder med:
-              </h3>
-              <ul style={{ listStyle: 'none', paddingLeft: 0, display: 'grid', gap: '12px' }}>
-                {['seksuelle dysfunktioner og vanskeligheder', 'parforholdets betydning for seksualiteten', 'følelsesmæssige mønstre', 'tilknytning og relationelle processer', 'skam, identitet og tidligere erfaringer'].map((item) => (
-                  <li key={item} style={{ display: 'flex', gap: '12px', alignItems: 'flex-start' }}>
-                    <span style={{ width: '10px', height: '10px', borderRadius: '999px', marginTop: '8px', background: 'var(--accent)' }} />
-                    <span style={{ color: 'var(--ink-soft)', fontSize: '16px' }}>{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-
-          <div style={{ padding: '26px', background: 'var(--paper-warm)', borderRadius: '24px', border: '1px solid var(--paper-mid)' }}>
-            <p style={{ fontSize: '17px', lineHeight: 1.9, color: 'var(--ink-soft)', margin: 0 }}>
-              Sexterapi forudsætter derfor solide terapeutiske kompetencer og en dyb forståelse af både psykologi og seksualitet. Det er netop dette krydsfelt, Institut for Seksualpsykologi ønsker at styrke.
-            </p>
-          </div>
+          
 
           <div style={{ padding: '26px', background: 'var(--paper-warm)', borderRadius: '24px', border: '1px solid var(--paper-mid)' }}>
             <h3 style={{ fontFamily: 'var(--serif)', fontSize: '20px', fontWeight: 500, color: 'var(--ink)', marginBottom: '16px' }}>

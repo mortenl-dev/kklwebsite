@@ -458,6 +458,9 @@ video {
 .grid{
   display: grid;
 }
+.hidden{
+  display: none;
+}
 .border{
   border-width: 1px;
 }

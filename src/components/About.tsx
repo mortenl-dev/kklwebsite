@@ -6,10 +6,10 @@ export default function About() {
       <div style={{ maxWidth: '1000px', margin: '0 auto' }}>
         <ScrollReveal>
           <p style={{ fontSize: '11px', fontWeight: 500, letterSpacing: '0.16em', textTransform: 'uppercase', color: 'var(--accent)', marginBottom: '16px' }}>
-            Om Instituttet
+           
           </p>
           <h2 style={{ fontFamily: 'var(--serif)', fontSize: 'clamp(32px, 3.5vw, 48px)', fontWeight: 300, lineHeight: 1.15, letterSpacing: '-0.01em', color: 'var(--ink)', marginBottom: '24px' }}>
-            Institut for Seksualpsykologi er grundlagt af Karina Kehlet Lins
+             Om Instituttet
           </h2>
           <p style={{ fontSize: '17px', lineHeight: 1.9, color: 'var(--ink-soft)', marginBottom: '24px' }}>
             Institut for Seksualpsykologi er grundlagt i 2026 af Karina Kehlet Lins, autoriseret psykolog,

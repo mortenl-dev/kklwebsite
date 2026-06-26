@@ -121,59 +121,9 @@ export default function Focus() {
               </div>
             </div>
 
-            <div style={{ padding: '28px', background: 'var(--paper)', borderRadius: '24px', border: '1px solid var(--paper-mid)' }}>
-              <h3 style={{ fontFamily: 'var(--serif)', fontSize: '20px', fontWeight: 500, color: 'var(--ink)', marginBottom: '16px' }}>
-                Uddannelsens forløb
-              </h3>
-              <div style={{ display: 'grid', gap: '18px' }}>
-                <div>
-                  <strong>Grundforløb</strong>
-                  <ul style={{ marginTop: '10px', paddingLeft: '20px', color: 'var(--ink-soft)', lineHeight: 1.8 }}>
-                    <li>Basis Sexologi</li>
-                    <li>Basis Parterapi</li>
-                    <li>SSA I – egen seksualitetsforståelse</li>
-                  </ul>
-                </div>
-                <div>
-                  <strong>Klinisk forløb</strong>
-                  <ul style={{ marginTop: '10px', paddingLeft: '20px', color: 'var(--ink-soft)', lineHeight: 1.8 }}>
-                    <li>Den seksualpsykologiske samtale</li>
-                    <li>Udredning og hypotesedannelse</li>
-                    <li>Interventioner</li>
-                    <li>SSA II – terapeuten i rummet</li>
-                  </ul>
-                </div>
-                <div>
-                  <strong>Avanceret forløb</strong>
-                  <ul style={{ marginTop: '10px', paddingLeft: '20px', color: 'var(--ink-soft)', lineHeight: 1.8 }}>
-                    <li>Komplekse sager</li>
-                    <li>Integration af par- og sexterapi</li>
-                    <li>SSA III – avanceret klinisk refleksion</li>
-                    <li>Supervision</li>
-                  </ul>
-                </div>
-                <div>
-                  <strong>Certificering</strong>
-                  <ul style={{ marginTop: '10px', paddingLeft: '20px', color: 'var(--ink-soft)', lineHeight: 1.8 }}>
-                    <li>Gennemførte moduler</li>
-                    <li>Supervision</li>
-                    <li>Dokumenteret klinisk erfaring</li>
-                    <li>Afsluttende kompetencevurdering</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+           
 
-            <div style={{ padding: '28px', background: 'var(--paper)', borderRadius: '24px', border: '1px solid var(--paper-mid)' }}>
-              <h3 style={{ fontFamily: 'var(--serif)', fontSize: '20px', fontWeight: 500, color: 'var(--ink)', marginBottom: '16px' }}>
-                Kliniske temaer
-              </h3>
-              <ul style={{ marginTop: '10px', paddingLeft: '20px', color: 'var(--ink-soft)', lineHeight: 1.8, display: 'grid', gap: '10px' }}>
-                {themes.map((item) => (
-                  <li key={item}>{item}</li>
-                ))}
-              </ul>
-            </div>
+            
           </div>
         </ScrollReveal>
       </div>

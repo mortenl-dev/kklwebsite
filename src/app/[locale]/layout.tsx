@@ -14,7 +14,10 @@ export async function generateMetadata({
   params: { locale: Locale };
 }): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: 'meta' });
-  return { title: t('title'), description: t('description') };
+  return {
+    title: 'ISP - Institut for Seksualpsykologi',
+    description: t('description'),
+  };
 }
 
 export default async function LocaleLayout({

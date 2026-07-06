@@ -115,11 +115,9 @@ export default function Courses() {
               Faglig Runde
             </h3>
             <p style={{ fontSize: '17px', lineHeight: 1.9, color: 'var(--ink-soft)', marginBottom: '24px' }}>
-              En eftermiddagsrække fra Institut for Seksualpsykologi.
-              Fagligt Indblik er en række mindre arrangementer for fagpersoner der ønsker at udforske
-              temaer inden for seksualitet, relationer og menneskelig mangfoldighed. Arrangementerne
-              kombinerer faglige oplæg og dialog i en gruppe på max 15 deltagere for at sikre aktiv
-              deltagelse og fordybelse.
+              Faglig Runde er en tilbagevendende række faglige eftermiddage for psykologer, terapeuter og andre fagpersoner,
+              der ønsker at udforske emner inden for seksualitet, relationer og menneskelig mangfoldighed.
+              Arrangementet kombinerer faglige oplæg, reflektion og dialog, ment til at inspirere fagpersoners daglige virke.
             </p>
 
             <div style={{ display: 'grid', gap: '32px' }}>

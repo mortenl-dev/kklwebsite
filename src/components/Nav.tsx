@@ -7,11 +7,11 @@ export default function Nav() {
     position: 'sticky', top: 0, zIndex: 100, height: 'var(--nav-h)',
     background: 'rgba(250,248,244,0.92)', backdropFilter: 'blur(12px)',
     borderBottom: '1px solid var(--paper-mid)',
-    display: 'flex', alignItems: 'center', padding: '0 40px', gap: '24px',
+    display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0 40px', gap: '24px', width: '100%',
   };
 
   const logoStyle: React.CSSProperties = {
-    display: 'flex', alignItems: 'center', gap: '14px', flex: 1,
+    display: 'flex', alignItems: 'center', gap: '14px', flexShrink: 0,
   };
 
   const logoMark: React.CSSProperties = {
@@ -46,7 +46,7 @@ export default function Nav() {
         </div>
       </div>
 
-      <ul style={{ display: 'flex', gap: '22px', listStyle: 'none', margin: 0, padding: 0 }} className="nav-links-desktop">
+      <ul style={{ display: 'flex', gap: '22px', listStyle: 'none', margin: 0, padding: 0, marginLeft: 'auto' }} className="nav-links-desktop">
         {links.map((item) => (
           <li key={item.href}>
             <a href={item.href} style={linkStyle}>

@@ -524,3 +524,13 @@ body {
   .nav-toggle        { display: block !important; }
 }
 
+.mobile-compact-section {
+  padding: 100px 40px;
+}
+
+@media (max-width: 768px) {
+  .mobile-compact-section {
+    padding: 56px 24px 72px;
+  }
+}
+

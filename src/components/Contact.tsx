@@ -4,7 +4,7 @@ import ScrollReveal from './ScrollReveal';
 
 export default function Contact() {
   return (
-    <section id="maalgruppe" style={{ padding: '100px 40px', background: 'var(--ink)' }}>
+    <section id="maalgruppe" className="mobile-compact-section" style={{ background: 'var(--ink)' }}>
       <div style={{ maxWidth: '1000px', margin: '0 auto' }}>
         <ScrollReveal>
           <p style={{ fontSize: '11px', fontWeight: 500, letterSpacing: '0.16em', textTransform: 'uppercase', color: 'var(--accent-light)', marginBottom: '16px' }}>

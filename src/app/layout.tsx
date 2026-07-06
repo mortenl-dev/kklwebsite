@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import '../styles/globals.css';
 
 export const metadata: Metadata = {
-  title: 'Institut for Seksualpsykologi',
+  title: 'ISP - Institut for Seksualpsykologi',
   description: 'Efteruddannelse, supervision og vidensformidling inden for seksualpsykologi, parterapi og sexterapi.',
 };
 
